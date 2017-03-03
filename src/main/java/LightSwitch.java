@@ -18,11 +18,13 @@ public class LightSwitch {
 
         // todo: the body of the toggle() method should set the on property to the opposite of its current value.
         public void toggle(){
-	        if(!on){
+	        this.on = !this.on;
+
+        	/*if(!on){
 		        on = true;
 	        }else{
 		        on = false;
-	        }
+	        }*/
         }
 
 
